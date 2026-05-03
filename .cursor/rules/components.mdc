@@ -1,0 +1,13 @@
+---
+description: Rules for React components
+globs: "src/components/**/*.tsx"
+---
+
+# Component Rules
+
+- Define the props interface above the component
+- Use "use client" only when needed
+- Use Tailwind utility classes for styling
+- Add accessible labels to form inputs
+- Add aria-labels to icon-only buttons
+- Keep components simple and focused

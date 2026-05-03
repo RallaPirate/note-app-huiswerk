@@ -1,0 +1,24 @@
+---
+description: Rules for styling and Tailwind usage
+globs: "**/*.css,**/*.tsx"
+---
+
+# Styling Rules
+
+- Use Tailwind utility classes only
+- Use the default Tailwind colour palette
+- Keep the UI simple, clean, and functional
+- Use mobile-first responsive design only where necessary
+- Do not create component-specific CSS files
+- Use globals.css only for CSS variables and base styles
+- Do not use custom CSS
+- Do not add animations, complex layouts, background images, or decorative styling
+
+## Visual Constraints
+
+- Use simple layouts (flex, grid where necessary)
+- Use rounded corners and basic shadows via Tailwind utilities only
+- Use standard spacing and sizing utilities
+- Use clear contrast for readability
+- Avoid unnecessary styling decisions
+- If a styling choice increases complexity, choose the simpler option
