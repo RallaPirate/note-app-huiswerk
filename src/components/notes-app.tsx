@@ -114,7 +114,7 @@ export function NotesApp() {
   );
 
   const handleDelete = useCallback(() => {
-    if (editingNoteId === null) {
+    if (editingNoteId !== null) {
       return;
     }
 
